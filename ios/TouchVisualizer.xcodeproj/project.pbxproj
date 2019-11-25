@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13BE3DEE1AC21097009241FE /* TouchVisualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BE3DED1AC21097009241FE /* TouchVisualizer.m */; };
+		C3403757238C5CCE007CD611 /* TouchVisualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = C3403756238C5CCE007CD611 /* TouchVisualizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +24,8 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libTouchVisualizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTouchVisualizer.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		13BE3DEC1AC21097009241FE /* TouchVisualizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchVisualizer.h; sourceTree = "<group>"; };
-		13BE3DED1AC21097009241FE /* TouchVisualizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchVisualizer.m; sourceTree = "<group>"; };
+		C3403755238C5CCE007CD611 /* TouchVisualizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchVisualizer.h; sourceTree = "<group>"; };
+		C3403756238C5CCE007CD611 /* TouchVisualizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchVisualizer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,10 +50,18 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				13BE3DEC1AC21097009241FE /* TouchVisualizer.h */,
-				13BE3DED1AC21097009241FE /* TouchVisualizer.m */,
+				C3403754238C5C97007CD611 /* TouchVisualizer */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		C3403754238C5C97007CD611 /* TouchVisualizer */ = {
+			isa = PBXGroup;
+			children = (
+				C3403755238C5CCE007CD611 /* TouchVisualizer.h */,
+				C3403756238C5CCE007CD611 /* TouchVisualizer.m */,
+			);
+			path = TouchVisualizer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +103,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
@@ -112,7 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13BE3DEE1AC21097009241FE /* TouchVisualizer.m in Sources */,
+				C3403757238C5CCE007CD611 /* TouchVisualizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

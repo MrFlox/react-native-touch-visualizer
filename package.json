@@ -1,6 +1,6 @@
 {
   "name": "react-native-touch-visualizer",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "keywords": [
     "react-native",
     "react",
@@ -11,6 +11,10 @@
     "touch-visualizer",
     "mobile"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrFlox/react-native-touch-visualizer"
+  },
   "description": "Visualize touches and drags in React Native apps.",
   "main": "TouchVisualizer.xcodeproj",
   "scripts": {
